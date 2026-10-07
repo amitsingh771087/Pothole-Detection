@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.*
+
+# Dataset - do NOT commit
+backend/model/dataset/
+
+# YOLO training outputs - do NOT commit
+backend/model/runs/
+backend/runs/
+
+# Base YOLO models
+backend/model/yolov8n.pt
+backend/yolov8n.pt
+
+# Frontend dependencies/build
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Logs
+*.log
